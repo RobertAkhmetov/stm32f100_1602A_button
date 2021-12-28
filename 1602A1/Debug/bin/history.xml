@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="6.2.1 -mcpu=cortex-m3 -mthumb -g -nostartfiles -Map=1602A1.map -O0 --gc-sections -LC:\CooCox\CoIDE\configuration\ProgramData\1602A1 -TC:\CooCox\CoIDE\configuration\ProgramData\1602A1/arm-gcc-link.ld -g">
+      <target file="1602A1.elf" lastModified="17dffc9da79">
+         <source file="..\obj\startup_stm32f10x_md_vl.o" lastModified="17dffc9d1bd"/>
+         <source file="..\obj\system_stm32f10x.o" lastModified="17dffc9d25f"/>
+         <source file="..\obj\stm32f10x_gpio.o" lastModified="17dffc9d309"/>
+         <source file="..\obj\main.o" lastModified="17dffc9d3e1"/>
+         <source file="..\obj\lcd-wh1602-04.o" lastModified="17dffc9d464"/>
+         <source file="..\obj\printf.o" lastModified="17dffc9d51d"/>
+         <source file="..\obj\stm32f10x_rcc.o" lastModified="17dffc9d5b7"/>
+         <source file="..\obj\syscalls.o" lastModified="17dffc9d647"/>
+         <source file="..\obj\misc.o" lastModified="17dffc9d6fb"/>
+         <source file="..\obj\stm32f10x_i2c.o" lastModified="17dffc9d7a5"/>
+      </target>
+   </processor>
+</history>

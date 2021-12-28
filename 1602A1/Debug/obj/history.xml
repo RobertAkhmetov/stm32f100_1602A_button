@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc noversion nomachine -mcpu=cortex-m3 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F100RB -DSTM32F10X_MD_VL -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -I..\..\..\workspace\1602A1 -I..\..\..\workspace\1602A1\cmsis -I..\..\..\workspace -I..\..\..\workspace\1602A1\stm_lib\inc -I..\..\..\..\..\Users\leade\Downloads\lcd-wh1602-04-stm32f10x-master (1)\lcd-wh1602-04-stm32f10x-master -I..\..\..\..\..\Users\leade\Downloads\lcd-wh1602-04-stm32f10x-master (1) -I..\..\..\workspace\1602A1\stm_lib -I..\..\..\..\..\Users\leade\Downloads -I..\..\..\workspace\1602A1\cmsis_boot">
+      <target file="startup_stm32f10x_md_vl.o" lastModified="17dffc9d1bd">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f10x_md_vl.c" lastModified="17dd75a38c8"/>
+      </target>
+      <target file="syscalls.o" lastModified="17dffc9d647">
+         <source file="..\..\..\syscalls\syscalls.c" lastModified="17de6dfbd8c"/>
+      </target>
+      <target file="stm32f10x_i2c.o" lastModified="17dffc9d7a5">
+         <source file="..\..\..\stm_lib\src\stm32f10x_i2c.c" lastModified="17dd75a3606"/>
+      </target>
+      <target file="lcd-wh1602-04.o" lastModified="17dffc9d464">
+         <source file="..\..\..\..\..\..\..\Users\leade\Downloads\lcd-wh1602-04-stm32f10x-master (1)\lcd-wh1602-04-stm32f10x-master\lcd-wh1602-04.c" lastModified="15dacd2dab0"/>
+      </target>
+      <target file="printf.o" lastModified="17dffc9d51d">
+         <source file="..\..\..\stdio\printf.c" lastModified="17de6dfe041"/>
+      </target>
+      <target file="system_stm32f10x.o" lastModified="17dffc9d25f">
+         <source file="..\..\..\cmsis_boot\system_stm32f10x.c" lastModified="17dd75a39e1"/>
+      </target>
+      <target file="main.o" lastModified="17dffc9d3e1">
+         <source file="..\..\..\main.c" lastModified="17dffc9c5df"/>
+      </target>
+      <target file="stm32f10x_gpio.o" lastModified="17dffc9d309">
+         <source file="..\..\..\stm_lib\src\stm32f10x_gpio.c" lastModified="17dd75a3d8e"/>
+      </target>
+      <target file="stm32f10x_rcc.o" lastModified="17dffc9d5b7">
+         <source file="..\..\..\stm_lib\src\stm32f10x_rcc.c" lastModified="17dd75a3795"/>
+      </target>
+      <target file="misc.o" lastModified="17dffc9d6fb">
+         <source file="..\..\..\stm_lib\src\misc.c" lastModified="17dd75a68b1"/>
+      </target>
+   </processor>
+</history>
